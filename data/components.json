@@ -1,0 +1,26 @@
+{
+  "cpu": [
+    { "id": "cpu1", "name": "Intel Core i5-12600K", "price": 25000, "socket": "LGA1700" },
+    { "id": "cpu2", "name": "AMD Ryzen 5 5600X", "price": 20000, "socket": "AM4" }
+  ],
+  "motherboard": [
+    { "id": "mb1", "name": "MSI MAG B660M Mortar", "price": 12000, "socket": "LGA1700", "chipset": "B660" },
+    { "id": "mb2", "name": "ASUS ROG Strix B550-F Gaming", "price": 14000, "socket": "AM4", "chipset": "B550" }
+  ],
+  "ram": [
+    { "id": "ram1", "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz", "price": 6000, "type": "DDR4" },
+    { "id": "ram2", "name": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600MHz", "price": 7000, "type": "DDR4" }
+  ],
+  "gpu": [
+    { "id": "gpu1", "name": "NVIDIA GeForce RTX 3060", "price": 40000 },
+    { "id": "gpu2", "name": "AMD Radeon RX 6600 XT", "price": 35000 }
+  ],
+  "storage": [
+    { "id": "storage1", "name": "Samsung 980 Pro 1TB NVMe SSD", "price": 10000 },
+    { "id": "storage2", "name": "Crucial MX500 1TB SATA SSD", "price": 8000 }
+  ],
+  "powerSupply": [
+    { "id": "psu1", "name": "Corsair RM750x (2021)", "price": 12000, "wattage": 750 },
+    { "id": "psu2", "name": "Seasonic FOCUS GX-750", "price": 11000, "wattage": 750 }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "id": "store1", "name": "InfinityStore Москва", "latitude": 55.7512, "longitude": 37.6184, "deliveryCost": 300 },
+  { "id": "store2", "name": "InfinityStore Санкт-Петербург", "latitude": 59.9391, "longitude": 30.3167, "deliveryCost": 400 },
+  { "id": "store3", "name": "InfinityStore Новосибирск", "latitude": 55.0281, "longitude": 82.9215, "deliveryCost": 500 }
+]

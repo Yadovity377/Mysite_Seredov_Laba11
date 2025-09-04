@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfinityStore - Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=fb11886c-4b57-4025-b9d3-7db31cff48ff&lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <svg width="100%" height="100%" viewBox="0 0 400 100">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#9400D3">
+                            <animate attributeName="stop-color" values="#9400D3; #FFFFFF; #29ABE2; #9400D3" dur="5s"
+                                repeatCount="indefinite" />
+                        </stop>
+                        <stop offset="100%" stop-color="#29ABE2">
+                            <animate attributeName="stop-color" values="#29ABE2; #9400D3; #FFFFFF; #29ABE2" dur="5s"
+                                repeatCount="indefinite" />
+                        </stop>
+                    </linearGradient>
+                </defs>
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="48"
+                    font-family="Arial" fill="url(#gradient)">
+                    InfinityStore
+                </text>
+            </svg>
+        </div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="news.html">Новости</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="pc-builder">
+            <h2>Конфигуратор ПК</h2>
+            <div class="pc-builder-container">
+                <div class="component-selection">
+                    <label for="cpu-select">Процессор:</label>
+                    <select id="cpu-select"></select>
+
+                    <label for="motherboard-select">Материнская плата:</label>
+                    <select id="motherboard-select"></select>
+
+                    <label for="ram-select">Оперативная память:</label>
+                    <select id="ram-select"></select>
+
+                    <label for="gpu-select">Видеокарта:</label>
+                    <select id="gpu-select"></select>
+
+                    <label for="storage-select">Накопитель:</label>
+                    <select id="storage-select"></select>
+
+                    <label for="power-supply-select">Блок питания:</label>
+                    <select id="power-supply-select"></select>
+
+                    <button id="build-pc-button">Рассчитать цену</button>
+                </div>
+
+                <div id="pc-summary">
+                    <h3>Ваша сборка:</h3>
+                    <ul id="pc-components-list"></ul>
+                    <p id="compatibility-message"></p>
+                    <p id="pc-price">Общая стоимость: <span id="total-price">0</span> ₽</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interactive-map">
+            <h2>Интерактивная карта продаж</h2>
+            <div id="map-container">
+                <div id="map"></div>
+                <div id="store-info">
+                    <h3>Выберите магазин:</h3>
+                    <select id="store-select"></select>
+                    <p id="delivery-info">Стоимость доставки: <span id="delivery-cost">0</span> ₽</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 InfinityStore. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfinityStore - Новости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <svg width="100%" height="100%" viewBox="0 0 400 100">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#9400D3">
+                            <animate attributeName="stop-color" values="#9400D3; #FFFFFF; #29ABE2; #9400D3" dur="5s"
+                                repeatCount="indefinite" />
+                        </stop>
+                        <stop offset="100%" stop-color="#29ABE2">
+                            <animate attributeName="stop-color" values="#29ABE2; #9400D3; #FFFFFF; #29ABE2" dur="5s"
+                                repeatCount="indefinite" />
+                        </stop>
+                    </linearGradient>
+                </defs>
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="48"
+                    font-family="Arial" fill="url(#gradient)">
+                    InfinityStore
+                </text>
+            </svg>
+        </div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="news.html">Новости</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="news">
+            <h2>Новости магазина</h2>
+
+            <div class="news-item">
+                <h3>Открытие нового магазина в Москве!</h3>
+                <p class="date">15 марта 2025</p>
+                <p>Мы рады сообщить об открытии нашего нового магазина в Москве. Вас ждет широкий ассортимент товаров и профессиональное обслуживание!</p>
+                <img src="images/news/mag.webp" alt="Новый магазин в Москве">
+            </div>
+
+            <div class="news-item">
+                <h3>Скидки на видеокарты RTX 3060!</h3>
+                <p class="date">10 марта 2025</p>
+                <p>Только сейчас скидки до 20% на видеокарты NVIDIA GeForce RTX 3060. Успейте приобрести по выгодной цене!</p>
+                <img src="images/news/rtx.webp" alt="Скидки на RTX 3060">
+            </div>
+
+            <div class="news-item">
+                <h3>Новое поступление процессоров Intel 12-го поколения!</h3>
+                <p class="date">5 марта 2025</p>
+                <p>В нашем магазине появились новые процессоры Intel Core 12-го поколения. Закажите сейчас и получите мощный процессор для вашего компьютера!</p>
+                <img src="images/news/intel.webp" alt="Новые процессоры Intel 12-го поколения">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 InfinityStore. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
